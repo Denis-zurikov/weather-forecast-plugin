@@ -6,14 +6,15 @@
 2. Получите API ключ на OpenWeatherMap (бесплатный тариф)<br>
 3. Введите API ключ в настройках плагина (в админке: Настройки → Weather Forecast)<br>
 4. Используйте шорткод на страницах/записях:<br>
-```PHP
+
+```php
 [weather_forecast location="Moscow"]
 ```
+
 Шорткод для автоматического определения локации:<br>
-```PHP
+```php
 [weather_forecast auto_location="true"]
 ```
-
 <h2>Дополнительные параметры шорткода:</h2>
 - location - город/страна (по умолчанию из настроек)<br>
 - show_icon - показывать иконку (true/false)<br>
